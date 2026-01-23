@@ -1,11 +1,12 @@
 {
     "name": "patryknamyslak/pauth",
-    "description": "Simple PHP Auth",
+    "description": "PHP Auth solution with OAuth, CSRF and dynamic form rendering.",
     "type": "library",
     "require": {
         "ext-pdo": "*",
         "vlucas/phpdotenv": "*",
-        "patryknamyslak/patbase": "*"
+        "patryknamyslak/patbase": "^1.3",
+        "patryknamyslak/patform": "^1.4"
     },
     "license": "CC-BY-NC-4.0",
     "autoload": {

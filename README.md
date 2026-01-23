@@ -1,14 +1,25 @@
 
-# PHP Auth
+# PAuth
 
-Simple Auth solution in PHP using PDO & MySQL.
+Authentication Library for PHP based systems.
 
-Are you tired of having to make an auth for a small simple project? Me too! So I just went ahead and made this reusable and modular php auth solution, this is not meant for production level projects but for small personal projects that don't shine the spotlight on the auth process.
-
+- Authentication Methods:
+  - Credential based login:
+    * Username + Password
+    * Email + Password
+  - OAuth
+    * Google
+    * Github
+  - Magic Links :: One time links sent to the users email
+- Automated Emails for:
+  - Verification
+  - Password changes / resets.
+  - Account deletion.
+  - Magic Links!
 
 ## Installation
 
-Install php-auth with composer
+Install PAuth with composer
 
 ```bash
   composer require patryknamyslak/pauth
@@ -21,4 +32,4 @@ Install php-auth with composer
 
 ## License
 
-[Creative Commons Attribution-Noncommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by/4.0/)
+[MIT](https://mit-license.org/)

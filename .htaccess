@@ -1,0 +1,7 @@
+RewriteEngine On
+# Check if the request is not for an existing file
+RewriteCond %{REQUEST_FILENAME} !-f
+# Check if the request is not for an existing directory
+RewriteCond %{REQUEST_FILENAME} !-d
+# Rewrite to your handler script with the URI as a parameter
+RewriteRule ^(.*)$ /index.php?uri=$1 [L,QSA]
