@@ -1,5 +1,5 @@
 # PAuth
-Authentication Library for PHP based systems.
+An authentication library with OAuth, CSRF, Dynamic form generation and much more!
 
 ## Authentication Methods:
 - Credential based login:
