@@ -1,9 +1,7 @@
-
 # PAuth
-
 Authentication Library for PHP based systems.
 
-# Authentication Methods:
+## Authentication Methods:
 - Credential based login:
   - Username + Password
   - Email + Password
@@ -12,7 +10,7 @@ Authentication Library for PHP based systems.
   - Github
 - Magic Links :: One time links sent to the users email
 
-# Automated Emails for:
+## Automated Emails for:
 - Verification
 - Password changes / resets.
 - Account deletion.
@@ -27,7 +25,6 @@ Install PAuth with composer
 ```
     
 ## Authors
-
 - [@patryknamyslak](https://www.github.com/patryknamyslak)
 
 

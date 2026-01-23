@@ -1,6 +1,6 @@
 {
     "name": "patryknamyslak/pauth",
-    "description": "PHP Auth solution with OAuth, CSRF and dynamic form rendering.",
+    "description": "An authentication library with OAuth, CSRF, Dynamic form generation and much more!",
     "type": "library",
     "require": {
         "ext-pdo": "*",
