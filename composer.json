@@ -6,9 +6,10 @@
         "ext-pdo": "*",
         "vlucas/phpdotenv": "*",
         "patryknamyslak/patbase": "^1.3",
-        "patryknamyslak/patform": "^1.4"
+        "patryknamyslak/patform": "^1.4",
+        "guzzlehttp/guzzle": "^7.10"
     },
-    "license": "CC-BY-NC-4.0",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "PatrykNamyslak\\": "src/"

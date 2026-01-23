@@ -33,8 +33,8 @@ Install PAuth with composer
 [MIT](https://mit-license.org/)
 
 ## Dependencies
-- [PatForm](https://patl.ink/form-builder/) :: Dynamic form Generator
-- [PatBase](https://patl.ink/patbase/) :: Database Communication Interface (DCI)
+- [patryknamyslak/patform](https://patl.ink/form-builder/) :: Dynamic form Generator
+- [patryknamyslak/patbase](https://patl.ink/patbase/) :: Database Communication Interface (DCI)
 - [Resend](https://resend.com/) :: Email Sending Client
-- [GuzzleHTTP](https://github.com/guzzle/guzzle) :: HTTP Client
-- [Vlucas PHPDotEnv](https://github.com/vlucas/phpdotenv) :: Environment variable loader
+- [guzzlehttp/guzzle](https://github.com/guzzle/guzzle) :: HTTP Client
+- [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) :: Environment variable loader
