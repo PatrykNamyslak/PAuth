@@ -1,5 +1,5 @@
 <?php
-namespace PatrykNamyslak\Auth;
+namespace PatrykNamyslak\Auth\Enums;
 
 enum UserTableStructure:string{
     case UPPERCASE_WITH_UNDERSCORES = "User_ID, Username, Email, Password";

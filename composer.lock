@@ -435,16 +435,16 @@
         },
         {
             "name": "patryknamyslak/patform",
-            "version": "v1.4",
+            "version": "v1.4.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PatrykNamyslak/PatForm.git",
-                "reference": "c327a9938d08c4c9e5324542554264446df43c1c"
+                "reference": "0122cc783b4ad376add70402425a3a38259aad93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PatrykNamyslak/PatForm/zipball/c327a9938d08c4c9e5324542554264446df43c1c",
-                "reference": "c327a9938d08c4c9e5324542554264446df43c1c",
+                "url": "https://api.github.com/repos/PatrykNamyslak/PatForm/zipball/0122cc783b4ad376add70402425a3a38259aad93",
+                "reference": "0122cc783b4ad376add70402425a3a38259aad93",
                 "shasum": ""
             },
             "require": {
@@ -466,9 +466,9 @@
             "description": "A form builder that fetches a tables structure and creates suitable fields, ideal for admin panels or to ease up the way of populating a table!",
             "support": {
                 "issues": "https://github.com/PatrykNamyslak/PatForm/issues",
-                "source": "https://github.com/PatrykNamyslak/PatForm/tree/v1.4"
+                "source": "https://github.com/PatrykNamyslak/PatForm/tree/v1.4.4.3"
             },
-            "time": "2026-01-21T16:55:44+00:00"
+            "time": "2026-01-27T15:15:55+00:00"
         },
         {
             "name": "phpoption/phpoption",
