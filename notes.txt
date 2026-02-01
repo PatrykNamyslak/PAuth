@@ -1,0 +1,2 @@
+Why are properties on events readonly?
+- Because they should be immutable (they cant be changed after creation).

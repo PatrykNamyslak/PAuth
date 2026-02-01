@@ -7,16 +7,16 @@ use PatrykNamyslak\Auth\Components\Forms\RegisterForm;
 use PatrykNamyslak\Auth\Core;
 use PatrykNamyslak\Auth\Enums\HttpErrorResponseCode;
 use PatrykNamyslak\Auth\Enums\HttpResponseCode;
-use PatrykNamyslak\Auth\EventDispatcher;
+use PatrykNamyslak\Auth\Events\Dispatcher;
 use PatrykNamyslak\Auth\Events\LoginFailed;
 use PatrykNamyslak\Auth\Models\User;
-use PatrykNamyslak\Auth\Models\Response;
+use PatrykNamyslak\Auth\Http\Response;
 
 class RegisterController{
     use Core;
 
     private(set) RegisterForm $form;
-    private static ?EventDispatcher $eventDispatcher;
+    private static ?Dispatcher $Dispatcher;
     private array $usersTableStructure;
 
     function __construct(private Auth $authService, RegisterForm $registerForm){
@@ -27,11 +27,11 @@ class RegisterController{
         User::init($this->authService->db, $this->authService->usersTable);
     }
 
-    public function setDispatcher(EventDispatcher $dispatcher = EventDispatcher::class){
-        self::$eventDispatcher = new $dispatcher;
+    public function setDispatcher(Dispatcher $dispatcher = Dispatcher::class){
+        self::$Dispatcher = new $dispatcher;
     }
     protected function subscribeToEventListeners(){
-        self::$eventDispatcher->subscribe("login.failed", function(LoginFailed $e) {
+        self::$Dispatcher->subscribe("login.failed", function(LoginFailed $e) {
             echo "Login Failed!";
         });
     }

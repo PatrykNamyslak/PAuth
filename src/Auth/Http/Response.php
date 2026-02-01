@@ -93,6 +93,11 @@ class Response{
         return $_SESSION["errorMessages"];
     }
 
+    /**
+     * Returns a response in JSON format, ideal for APIs or OAuth
+     * @param HttpResponseCode|HttpErrorResponseCode $httpResponseCode
+     * @return never Echoed JSON alongside a given http response code
+     */
     public function outputJSONResponse(HttpResponseCode|HttpErrorResponseCode $httpResponseCode): never{
         header("Content-Type: application/json; charset=utf-8");
         $messages = json_decode($this->json, 1);

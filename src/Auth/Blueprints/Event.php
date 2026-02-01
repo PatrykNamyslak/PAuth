@@ -1,12 +1,10 @@
 <?php
-namespace PatrykNamyslak\Auth\Events;
+namespace PatrykNamyslak\Auth\Blueprints;
 
 abstract class Event{
-    protected(set) float $timestamp;
+    public readonly float $timestamp;
 
     public function __construct(){
         $this->timestamp = microtime(true);
     }
-
-    abstract public function getName();
 }

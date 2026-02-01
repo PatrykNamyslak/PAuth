@@ -1,12 +1,14 @@
 <?php
 namespace PatrykNamyslak\Auth;
 
+use PatrykNamyslak\Auth\Enums\AuthMode;
+use PatrykNamyslak\Auth\Interfaces\Database;
 use PatrykNamyslak\Patbase;
 
 abstract class Validator{
-    private static Patbase $db;
+    private static Database $db;
 
-    public static function init(Patbase $db){
+    public static function init(Database $db){
         self::$db = $db;
     }
 

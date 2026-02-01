@@ -4,6 +4,7 @@ namespace PatrykNamyslak\Auth;
 use Exception;
 use InvalidArgumentException;
 use PatrykNamyslak\Auth\Enums\AuthMode;
+use PatrykNamyslak\Auth\Interfaces\Database;
 use PatrykNamyslak\Auth\Models\User;
 use PatrykNamyslak\Auth\Traits\DefaultLoginMode;
 use PatrykNamyslak\Patbase;
@@ -16,7 +17,7 @@ class AuthService{
     private(set) array $usersTableStructure;
 
 
-    public function __construct(public Patbase $db, private(set) string $usersTable){
+    public function __construct(public Database $db, private(set) string $usersTable){
         User::init($db, $this->usersTable);
         Validator::init($db);
     }

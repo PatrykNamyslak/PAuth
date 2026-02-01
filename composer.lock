@@ -395,21 +395,20 @@
         },
         {
             "name": "patryknamyslak/patbase",
-            "version": "v1.3.3",
+            "version": "v1.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/PatrykNamyslak/patbase.git",
-                "reference": "48c99643e848440c5553996812c5aee2c7e953df"
+                "url": "https://github.com/PatrykNamyslak/PatBase.git",
+                "reference": "d2cce99ce7202c024fbdcb9255000d3f66ab899e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PatrykNamyslak/patbase/zipball/48c99643e848440c5553996812c5aee2c7e953df",
-                "reference": "48c99643e848440c5553996812c5aee2c7e953df",
+                "url": "https://api.github.com/repos/PatrykNamyslak/PatBase/zipball/d2cce99ce7202c024fbdcb9255000d3f66ab899e",
+                "reference": "d2cce99ce7202c024fbdcb9255000d3f66ab899e",
                 "shasum": ""
             },
             "require": {
-                "ext-pdo": "*",
-                "vlucas/phpdotenv": "*"
+                "ext-pdo": "*"
             },
             "type": "library",
             "autoload": {
@@ -419,19 +418,19 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "CC-BY-NC-4.0"
+                "MIT"
             ],
             "authors": [
                 {
                     "name": "Patryk Namyslak"
                 }
             ],
-            "description": "Simple php database controller",
+            "description": "PHP database Controller",
             "support": {
-                "issues": "https://github.com/PatrykNamyslak/patbase/issues",
-                "source": "https://github.com/PatrykNamyslak/patbase/tree/v1.3.3"
+                "issues": "https://github.com/PatrykNamyslak/PatBase/issues",
+                "source": "https://github.com/PatrykNamyslak/PatBase/tree/v1.4"
             },
-            "time": "2025-07-22T01:57:29+00:00"
+            "time": "2026-02-01T03:06:34+00:00"
         },
         {
             "name": "patryknamyslak/patform",
